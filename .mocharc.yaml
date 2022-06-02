@@ -1,0 +1,12 @@
+exit: true
+node-option:
+  - experimental-specifier-resolution=node
+  - inspect=0.0.0.0
+  - loader=ts-node/esm
+  - no-warnings
+  - trace-warnings
+  - unhandled-rejections=strict
+parallel: true
+require:
+  - src/test/setup_chai.ts
+timeout: 60000
